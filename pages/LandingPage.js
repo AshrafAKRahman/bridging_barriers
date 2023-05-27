@@ -36,8 +36,16 @@ const Landing = () => {
         className="absolute inset-0 flex items-start justify-start flex-col ml-40 mt-80"
         style={{ transform: "translate(-10px, 50px)" }}
       >
-        <LargeButton className="mb-16 shadow-2xl" text="Create Profile" />
-        <LargeButton className="shadow-2xl" text="Login" />
+        <LargeButton
+          className="mb-16 shadow-2xl"
+          text="Create Profile"
+          href="/CreateProfile_1"
+        />
+        <LargeButton
+          className="shadow-2xl"
+          text="Login"
+          href="@/pages/CreateProfile_1.js"
+        />
       </div>
     </div>
   );
