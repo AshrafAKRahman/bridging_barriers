@@ -18,9 +18,15 @@ export default function EmailForm() {
       style={{
         display: "flex",
         flexDirection: "column",
-        height: "90vh", // Set the parent element's height to fill the viewport
+        height: "90vh", // Setting the parent element's height to fill the viewport
       }}
     >
+      <div className="mb-10">
+        <Header
+          titleClassName="text-5xl absolute left-20 top-40 transform translate-x-6 translate-y-58 text-black"
+          title="Create Your Profile"
+        />
+      </div>
       <form
         onSubmit={handleSubmit}
         className="bg-blue-100 rounded-lg p-8 mt-10 ml-20 mr-20"
@@ -35,7 +41,7 @@ export default function EmailForm() {
         <div className="md:flex md:items-center mt-40">
           <div className="md:w-1/6">
             <label
-              className="block text-white font-bold md:text-right mb-1 md:mb-0 pr-4"
+              className="block text-black font-bold mb-1 md:mb-0 pr-6"
               htmlFor="inline-email"
             >
               Email
@@ -43,7 +49,7 @@ export default function EmailForm() {
           </div>
           <div className="md:w-2/3">
             <input
-              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+              className="bg-gray-200 rounded w-80 py-2 px-4 text-gray-700 border border-black"
               id="inline-email"
               type="email"
               value={email}
@@ -52,16 +58,8 @@ export default function EmailForm() {
             />
           </div>
         </div>
-        <div className="md:flex md:items-center">
-          <div className="md:w-1/3"></div>
-          <div className="md:w-2/3">
-            <button
-              className="shadow bg-blue-700 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-              type="submit"
-            >
-              Sign Up
-            </button>
-          </div>
+        <div className="mt-20">
+          <NormalButton text="Next" />
         </div>
       </form>
     </div>
