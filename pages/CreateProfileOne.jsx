@@ -36,16 +36,13 @@ export default function EmailForm() {
       >
         <div className="md:flex md:items-center mt-60">
           <div className="md:w-1/6">
-            <label
-              className="block text-black font-bold mb-1 md:mb-0 pr-6"
-              htmlFor="inline-email"
-            >
+            <label className="text-black" htmlFor="inline-email">
               Email
             </label>
           </div>
-          <div className="md:w-1/4">
+          <div className="">
             <input
-              className="bg-gray-200 rounded w-full py-2 px-4 text-gray-700 border border-black"
+              className="bg-gray-200 rounded w-full py-4 px-4 text-gray-700 border border-black"
               id="inline-email"
               type="email"
               value={email}
