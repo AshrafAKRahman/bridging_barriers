@@ -1,6 +1,6 @@
 import LargeButton from "@/components/buttons/LargeButton";
-import Header from "../components/Header";
-import SubHeader from "@/components/subheader";
+import Header from "../components/header/Header";
+import SubHeader from "@/components/subheader/subheader";
 
 const Landing = () => {
   return (
@@ -39,12 +39,12 @@ const Landing = () => {
         <LargeButton
           className="mb-16 shadow-2xl"
           text="Create Profile"
-          href="/CreateProfile_1"
+          href="/CreateProfileOne"
         />
         <LargeButton
           className="shadow-2xl"
           text="Login"
-          href="@/pages/CreateProfile_1.js"
+          href="@/pages/CreateProfileOne"
         />
       </div>
     </div>

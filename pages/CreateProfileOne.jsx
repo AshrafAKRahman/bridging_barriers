@@ -1,9 +1,6 @@
-import LargeButton from "@/components/buttons/LargeButton";
 import NormalButton from "@/components/buttons/NormalButton";
-import Header from "../components/Header";
-import SubHeader from "@/components/subheader";
+import Header from "@/components/header/Header";
 import { useState } from "react";
-import "@/app/globals.css";
 
 export default function EmailForm() {
   const [email, setEmail] = useState("");
