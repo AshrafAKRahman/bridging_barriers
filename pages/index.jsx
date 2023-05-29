@@ -4,7 +4,7 @@ import Landing from "@/pages/LandingPage";
 
 const Home = () => {
   return (
-    <div className="bg-blue-100 min-h-screen">
+    <div className="w-full bg-blue-100 min-h-screen">
       <Navbar />
       <Footer />
       <Landing />
