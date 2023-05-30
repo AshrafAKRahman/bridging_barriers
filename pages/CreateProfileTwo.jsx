@@ -3,6 +3,7 @@ import NormalButton from "@/components/buttons/NormalButton";
 import Link from "next/link";
 import Header from "@/components/header/Header";
 import Form from "@/components/form/form";
+import Checkbox from "@/components/checkbox/checkbox";
 
 export default function CreateProfileForm() {
   const [firstName, setFirstName] = useState("");
@@ -65,27 +66,26 @@ export default function CreateProfileForm() {
         </div>
 
         <div className="md:w-1/2 ml-20">
-          <label className="flex items-center space-x-4 mb-20">
-            <input
-              type="checkbox"
-              checked={isCheckedOne}
-              onChange={(e) => setIsCheckedOne(e.target.checked)}
+          <div className="mb-10">
+            <Checkbox
+              label="Send me emails and I wish to subscribe to newsletters"
+              onChange={(isChecked) => setIsCheckedOne(isChecked)}
             />
-            <span>Send me emails and I wish to subscribe to newsletters</span>
-          </label>
-          <label className="flex items-center space-x-4">
-            <input
-              type="checkbox"
-              checked={isCheckedTwo}
-              onChange={(e) => setIsCheckedTwo(e.target.checked)}
+          </div>
+          <div className="mb-10">
+            <Checkbox
+              label=<p>
+                Privacy, terms and conditions{" "}
+                <Link
+                  className="text-blue-500 underline"
+                  href="/data agreement"
+                >
+                  data agreement
+                </Link>
+              </p>
+              onChange={(isChecked) => setIsCheckedOne(isChecked)}
             />
-            <span>
-              Privacy, terms and conditions data agreement Lorem ipsum dolor sit
-              amet. Sed corrupti voluptas eum voluptas mollitia qui labore unde
-              vel repellat dolore ut voluptas repellendus qui quia odio. Aut
-              libero dicta eos facere reiciendis quo quos nostrum.
-            </span>
-          </label>
+          </div>
         </div>
       </div>
       <div className="mt-20">
