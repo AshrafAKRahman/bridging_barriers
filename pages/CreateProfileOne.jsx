@@ -1,6 +1,7 @@
 import NormalButton from "@/components/buttons/NormalButton";
 import Header from "@/components/header/Header";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function EmailForm() {
   const [email, setEmail] = useState("");
@@ -51,8 +52,15 @@ export default function EmailForm() {
             />
           </div>
         </div>
+        <div className="mt-10">
+          <p className="text-blue-500 underline font-sans">
+            Already have an account? <Link href="/login">Login here</Link>
+          </p>
+        </div>
         <div className="mt-20">
-          <NormalButton text="Next" />
+          <Link href="/CreateProfileTwo">
+            <NormalButton text="Next" />
+          </Link>
         </div>
       </form>
     </div>
