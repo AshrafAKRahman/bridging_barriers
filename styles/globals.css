@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.rounded-25 {
+  border-radius: 25px;
+}
+.rounded-img {
+  border-radius: 25%;
+}
