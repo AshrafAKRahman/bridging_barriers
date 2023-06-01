@@ -23,8 +23,8 @@ const CreateProfileThree = () => {
   return (
     <Form>
       <Header
-        titleClassName="text-3xl absolute left:40 md:left-20 top-20 transform translate-x-6 translate-y-58 text-black"
-        title="industries"
+        titleClassName="text-3xl absolute left:40 md:left-20 top-20 transform translate-x-6 translate-y-58 text-white"
+        title="Industries"
       />
       <div className="flex flex-wrap mt-20">
         <div className="w-1/4 mb-10">
@@ -36,6 +36,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Accounting"
             onChange={(isChecked) => setIsChecked1(isChecked)}
+            className="text-white"
           />
         </div>
 
@@ -48,6 +49,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Banking & Finance"
             onChange={(isChecked) => setIsChecked2(isChecked)}
+            className="text-white"
           />
         </div>
 
@@ -60,6 +62,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Consulting"
             onChange={(isChecked) => setIsChecked3(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -71,6 +74,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Marketing"
             onChange={(isChecked) => setIsChecked4(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -82,6 +86,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Education"
             onChange={(isChecked) => setIsChecked5(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -93,6 +98,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Engineering"
             onChange={(isChecked) => setIsChecked6(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -104,6 +110,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Government & Public Sector"
             onChange={(isChecked) => setIsChecked7(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -115,6 +122,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Healthcare"
             onChange={(isChecked) => setIsChecked8(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -126,6 +134,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Real Estate"
             onChange={(isChecked) => setIsChecked9(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -137,6 +146,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Law"
             onChange={(isChecked) => setIsChecked10(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -148,6 +158,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Banking & Finance"
             onChange={(isChecked) => setIsChecked11(isChecked)}
+            className="text-white"
           />
         </div>
         <div className="w-1/4 mb-10">
@@ -159,6 +170,7 @@ const CreateProfileThree = () => {
           <Checkbox
             label="Banking & Finance"
             onChange={(isChecked) => setIsChecked12(isChecked)}
+            className="text-white"
           />
         </div>
       </div>

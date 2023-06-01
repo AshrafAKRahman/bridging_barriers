@@ -6,15 +6,15 @@ const Landing = () => {
   return (
     <div className="relative">
       <Header
-        titleClassName="text-3xl absolute left-0 right-10 top-10 transform translate-x-6 translate-y-58 text-blue-800"
+        titleClassName="text-3xl absolute left-0 right-10 top-10 transform translate-x-6 translate-y-58 text-white"
         title="Welcome to the Bridging Barriers Portal"
       />
       <div className="mx-auto">
-        <hr className="mt-40 w-1/2 rounded bg-gradient-to-r from-blue-800 to-blue-100 h-8" />
+        <hr className="mt-40 w-1/2 border-none rounded bg-gradient-to-r from-blue-900 to-blue-300 h-8" />
       </div>
 
       <SubHeader
-        titleClassName="text-2xl mt-10 text-blue-800 text-center md:ml-10 flex"
+        titleClassName="text-2xl mt-10 text-white text-center md:ml-10 flex"
         title="Developing lasting relationships"
       />
       <div className="flex justify-end mt-20">
