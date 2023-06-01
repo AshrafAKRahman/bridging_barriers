@@ -121,10 +121,10 @@ const CreateProfileFour = () => {
         </div>
       </div>
       <div className="mt-10">
-        <Link className="mr-10" href="/CreateProfileTwo">
+        <Link className="mr-10" href="/CreateProfileThree">
           <NormalButton text="Previous" />
         </Link>
-        <Link href="/CreateProfileFour">
+        <Link href="/CreateProfileFive">
           <NormalButton text="Next" />
         </Link>
       </div>
