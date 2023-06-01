@@ -16,7 +16,7 @@ const Checkbox = ({ label, onChange = () => {}, className = "" }) => {
         checked={isChecked}
         onChange={handleCheckboxChange}
       />
-      <span className="text-gray-900 text-sm">{label}</span>
+      <span className={`${className} text-sm`}>{label}</span>
     </label>
   );
 };

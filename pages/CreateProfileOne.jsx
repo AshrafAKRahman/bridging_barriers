@@ -15,12 +15,12 @@ export default function EmailForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <Header
-        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 translate-y-58 text-black"
+        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 translate-y-58 text-white"
         title="Create Your Profile"
       />
       <div className="md:flex md:items-center mt-60">
         <div className="md:w-1/6">
-          <label className="text-black" htmlFor="inline-email">
+          <label className="text-white" htmlFor="inline-email">
             Email address
           </label>
         </div>

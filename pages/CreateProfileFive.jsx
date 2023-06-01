@@ -14,7 +14,7 @@ const CreateProfileFive = () => {
   return (
     <Form>
       <Header
-        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 traslate-y-58 text-black"
+        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 traslate-y-58 text-white"
         title="Membership type"
       />
       <div className="w-1/4 mt-60">
@@ -22,24 +22,28 @@ const CreateProfileFive = () => {
           <Checkbox
             label="Blogger"
             onChange={(isChecked1) => setIsChecked1(isChecked1)}
+            className="text-white"
           />
         </div>
         <div className="mb-10">
           <Checkbox
             label="Mentee"
             onChange={(isChecked2) => setIsChecked2(isChecked2)}
+            className="text-white"
           />
         </div>
         <div className="mb-10">
           <Checkbox
             label="Mentor"
             onChange={(isChecked3) => setIsChecked3(isChecked3)}
+            className="text-white"
           />
         </div>
 
         <Checkbox
           label="Events"
           onChange={(isChecked4) => setIsChecked4(isChecked4)}
+          className="text-white"
         />
       </div>
       <div className="mt-20">

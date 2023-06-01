@@ -6,11 +6,11 @@ const CreateProfileSeven = () => {
   return (
     <Form>
       <Header
-        titleClassName="text-3xl text-center mt-60"
+        titleClassName="text-3xl text-center mt-60 text-white"
         title="Profile Created"
       />
       <SubHeader
-        titleClassName="text-2xl text-center mt-70"
+        titleClassName="text-2xl text-center mt-70 text-white"
         title="We have sent you an email to setup your password"
       />
     </Form>
