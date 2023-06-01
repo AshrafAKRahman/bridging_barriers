@@ -36,50 +36,60 @@ const CreateProfileSix = () => {
       <div className="flex justify-between">
         <div className="w-1/2">
           <SubHeader
-            titleClassName="text-2xl mt-10 text-black flex"
+            titleClassName="text-2xl mt-10 text-black flex mb-2"
             title="Ethnic Heritage"
           />
           <Checkbox
             label="Mixed or multiple ethnic groups"
             onChange={(isChecked1) => setIsChecked1(isChecked1)}
+            className="mb-3"
           />
           <Checkbox
             label="Asian or Asian British"
             onChange={(isChecked2) => setIsChecked2(isChecked2)}
+            className="mb-3"
           />
           <Checkbox
             label="Black, African, Caribbean or Black British"
             onChange={(isChecked3) => setIsChecked3(isChecked3)}
+            className="mb-3"
           />
           <Checkbox
             label="White, White British, White European or White other"
             onChange={(isChecked4) => setIsChecked4(isChecked4)}
+            className="mb-3"
           />
           <Checkbox
             label="Self Describe"
             onChange={(isChecked5) => setIsChecked5(isChecked5)}
+            className="mb-3"
           />
         </div>
         <div className="w-1/2">
           <SubHeader
             titleClassName="text-2xl mt-10 text-black flex"
             title="Gender"
+            className="mb-2"
           />
           <Checkbox
             label="Male"
             onChange={(isChecked6) => setIsChecked6(isChecked6)}
+            className="mb-3"
           />
           <Checkbox
             label="Female"
             onChange={(isChecked7) => setIsChecked7(isChecked7)}
+            className="mb-3"
           />
           <Checkbox
             label="Non-Binary"
             onChange={(isChecked8) => setIsChecked8(isChecked8)}
+            className="mb-3"
           />
           <Checkbox
             label="Self describe (please specify)"
             onChange={(isChecked9) => setIsChecked9(isChecked9)}
+            className="mb-3"
           />
         </div>
       </div>
