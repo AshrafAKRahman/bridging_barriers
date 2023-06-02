@@ -24,7 +24,7 @@ const CreateProfileFour = () => {
     <Form>
       <Header
         titleClassName="text-3xl absolute left:40 md:left-20 top-20 transform translate-x-6 translate-y-58 text-white"
-        title="Locations"
+        title="Where are you based"
       />
 
       <SubHeader

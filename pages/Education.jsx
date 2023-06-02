@@ -63,7 +63,7 @@ const Education = () => {
           </div>
           <div className="mb-10">
             <label className="text-white" htmlFor="inline-name">
-              Last name
+              Sixth Form / College name
             </label>
             <input
               className="bg-gray-200 rounded py-4 px-4 text-gray-700 border border-white w-full"
