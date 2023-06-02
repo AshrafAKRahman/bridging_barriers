@@ -31,7 +31,7 @@ const CreateProfileThree = () => {
           <img
             src="Accounting.jpg"
             alt="Accounting"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Accounting"
@@ -44,7 +44,7 @@ const CreateProfileThree = () => {
           <img
             src="Banking_Finance.jpg"
             alt="Banking & Finance"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Banking & Finance"
@@ -57,7 +57,7 @@ const CreateProfileThree = () => {
           <img
             src="Consulting.jpg"
             alt="Consulting"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Consulting"
@@ -69,7 +69,7 @@ const CreateProfileThree = () => {
           <img
             src="Marketing.jpg"
             alt="Marketing"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Marketing"
@@ -81,7 +81,7 @@ const CreateProfileThree = () => {
           <img
             src="Education.jpg"
             alt="Education"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Education"
@@ -93,7 +93,7 @@ const CreateProfileThree = () => {
           <img
             src="Engineering.jpg"
             alt="Engineering"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Engineering"
@@ -105,7 +105,7 @@ const CreateProfileThree = () => {
           <img
             src="Governemnt_Public.jpg"
             alt="Government"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Government & Public Sector"
@@ -117,7 +117,7 @@ const CreateProfileThree = () => {
           <img
             src="Healthcare.jpg"
             alt="Banking & Finance"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Healthcare"
@@ -129,7 +129,7 @@ const CreateProfileThree = () => {
           <img
             src="Real Estate.jpg"
             alt="Real Estate"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Real Estate"
@@ -141,7 +141,7 @@ const CreateProfileThree = () => {
           <img
             src="Law.jpg"
             alt="Law"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Law"
@@ -153,7 +153,7 @@ const CreateProfileThree = () => {
           <img
             src="Technology.jpg"
             alt="Technology"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Banking & Finance"
@@ -165,7 +165,7 @@ const CreateProfileThree = () => {
           <img
             src="Media-_-Music_1.jpg"
             alt="Media_Music"
-            className="rounded-img mb-5 w-[60px] h-[60px]"
+            className="rounded-img mb-5 w-[70px] h-[70px]"
           />
           <Checkbox
             label="Banking & Finance"

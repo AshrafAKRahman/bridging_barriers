@@ -9,14 +9,18 @@ const Checkbox = ({ label, onChange = () => {}, className = "" }) => {
   };
 
   return (
-    <label className={`flex items-center space-x-2 ${className}`}>
+    <label className={`flex items-center space-x-2 w-full ${className}`}>
       <input
         type="checkbox"
         className="form-checkbox h-8 w-8 hover:bg-blue-500"
         checked={isChecked}
         onChange={handleCheckboxChange}
       />
-      <span className={`${className} text-sm`}>{label}</span>
+      <span
+        className={`overflow-ellipsis overflow-hidden w-full ${className} text-sm`}
+      >
+        {label}
+      </span>
     </label>
   );
 };
