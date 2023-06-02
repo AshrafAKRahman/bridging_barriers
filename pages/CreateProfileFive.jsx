@@ -6,47 +6,49 @@ import NormalButton from "@/components/buttons/NormalButton";
 import Link from "next/link";
 
 const CreateProfileFive = () => {
-  const [isChecked1, setIsChecked1] = useState(false);
-  const [isChecked2, setIsChecked2] = useState(false);
-  const [isChecked3, setIsChecked3] = useState(false);
-  const [isChecked4, setIsChecked4] = useState(false);
+  const [isChecked, setIsChecked] = useState(new Array(12).fill(false));
+
+  const handleCheckboxChange = (index, value) => {
+    const newIsChecked = [...isChecked];
+    newIsChecked[index] = value;
+    setIsChecked(newIsChecked);
+  };
+
+  const labels = [
+    "Eligible for free school meals during secondary or further education",
+    "A looked after young person or Care leaver",
+    "A young Carer to immediate family member or a young parent below 21",
+    "Identify as working class or low income background",
+    "Caretakers not attending university",
+    "Self-identifying as a person of colour (including mixed heritage)",
+    "Self-identifying as estranged in adulthood",
+    "Migrating to the uk after 5 years of age",
+    "English as an additional language",
+    "Recieving full maintenance loan at university",
+    "Self-identifying as disabled or experienced significant disruption to your education due to illness or injury",
+    "Experienced other significant personal or familal disadvantage that has impacted education or employment (for example, bereavement)",
+  ];
 
   return (
     <Form>
       <Header
-        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 traslate-y-58 text-white"
-        title="Membership type"
+        titleClassName="text-3xl absolute left:40 md:left-20 top-20 transform translate-x-6 traslate-y-58 text-white"
+        title="Criteria & Circumstances"
       />
-      <div className="w-1/4 mt-60">
-        <div className="mb-10">
-          <Checkbox
-            label="Blogger"
-            onChange={(isChecked1) => setIsChecked1(isChecked1)}
-            className="text-white"
-          />
-        </div>
-        <div className="mb-10">
-          <Checkbox
-            label="Mentee"
-            onChange={(isChecked2) => setIsChecked2(isChecked2)}
-            className="text-white"
-          />
-        </div>
-        <div className="mb-10">
-          <Checkbox
-            label="Mentor"
-            onChange={(isChecked3) => setIsChecked3(isChecked3)}
-            className="text-white"
-          />
-        </div>
-
-        <Checkbox
-          label="Events"
-          onChange={(isChecked4) => setIsChecked4(isChecked4)}
-          className="text-white"
-        />
+      <div className="grid grid-cols-3 gap-8 mt-40">
+        {labels.map((label, index) => (
+          <div key={index} className="mb-10 min-w-0">
+            <Checkbox
+              label={label}
+              checked={isChecked[index]}
+              onChange={(value) => handleCheckboxChange(index, value)}
+              className="text-white"
+            />
+          </div>
+        ))}
       </div>
-      <div className="mt-20">
+
+      <div className="mt-0">
         <Link className="mr-10" href="/CreateProfileFour">
           <NormalButton text="Previous" />
         </Link>
