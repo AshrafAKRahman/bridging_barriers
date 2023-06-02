@@ -10,7 +10,7 @@ const Landing = () => {
         title="Welcome to the Bridging Barriers Portal"
       />
       <div className="mx-auto">
-        <hr className="mt-40 w-1/2 border-none rounded bg-gradient-to-r from-blue-900 to-gray-100 h-8" />
+        <hr className="mt-40 w-1/2 border-none rounded bg-gradient-to-r from-blue-600 to-gray-100 h-8" />
       </div>
 
       <SubHeader
