@@ -92,7 +92,7 @@ export default function CreateProfileForm() {
         <Link className="mr-10" href="/CreateProfileOne">
           <NormalButton text="Previous" />
         </Link>
-        <Link href="/CreateProfileThree">
+        <Link href="/Education">
           <NormalButton text="Next" />
         </Link>
       </div>

@@ -24,7 +24,7 @@ const CreateProfileThree = () => {
     <Form>
       <Header
         titleClassName="text-3xl absolute left:40 md:left-20 top-20 transform translate-x-6 translate-y-58 text-white"
-        title="Industries"
+        title="Which job sector interests you"
       />
       <div className="flex flex-wrap mt-20">
         <div className="w-1/4 mb-10">
