@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export default function EmailForm() {
   const [email, setEmail] = useState("");
+  const [dateOfBirth, setDateOfBirth] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,12 +16,12 @@ export default function EmailForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <Header
-        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 translate-y-58 text-black"
+        titleClassName="text-3xl absolute left:40 md:left-20 top-40 transform translate-x-6 translate-y-58 text-white"
         title="Create Your Profile"
       />
       <div className="md:flex md:items-center mt-60">
         <div className="md:w-1/6">
-          <label className="text-black" htmlFor="inline-email">
+          <label className="text-white" htmlFor="inline-email">
             Email address
           </label>
         </div>
@@ -32,6 +33,22 @@ export default function EmailForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="you@example.com"
+          />
+        </div>
+      </div>
+      <div className="md:flex md:items-center mt-10">
+        <div className="md:w-1/6">
+          <label className="text-white" htmlFor="inline-dob">
+            Date of birth
+          </label>
+        </div>
+        <div className="">
+          <input
+            className="bg-gray-200 rounded w-full py-4 px-4 text-gray-400 border border-black"
+            id="inline-dob"
+            type="date"
+            value={dateOfBirth}
+            onChange={(e) => setDateOfBirth(e.target.value)}
           />
         </div>
       </div>
