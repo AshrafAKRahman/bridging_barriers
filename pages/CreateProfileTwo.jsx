@@ -2,7 +2,7 @@ import { useState } from "react";
 import NormalButton from "@/components/buttons/NormalButton";
 import Link from "next/link";
 import Header from "@/components/header/Header";
-import Form from "@/components/form/form";
+import Form from "../components/form/Form";
 import Checkbox from "@/components/checkbox/checkbox";
 
 export default function CreateProfileForm() {
