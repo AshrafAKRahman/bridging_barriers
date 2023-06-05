@@ -4,6 +4,7 @@ import Form from "@/components/form/Form";
 import Header from "@/components/header/Header";
 import NormalButton from "@/components/buttons/NormalButton";
 import Link from "next/link";
+import Image from "next/image";
 
 const CreateProfileThree = () => {
   // Define states for each checkbox
@@ -28,10 +29,12 @@ const CreateProfileThree = () => {
       />
       <div className="flex flex-wrap mt-20">
         <div className="w-1/4 mb-10">
-          <img
-            src="Accounting.jpg"
+          <Image
+            src="/Accounting.jpg"
             alt="Accounting"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Accounting"
@@ -41,10 +44,12 @@ const CreateProfileThree = () => {
         </div>
 
         <div className="w-1/4 mb-10">
-          <img
-            src="Banking_Finance.jpg"
+          <Image
+            src="/Banking_Finance.jpg"
             alt="Banking & Finance"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Banking & Finance"
@@ -54,10 +59,12 @@ const CreateProfileThree = () => {
         </div>
 
         <div className="w-1/4 mb-10">
-          <img
-            src="Consulting.jpg"
+          <Image
+            src="/Consulting.jpg"
             alt="Consulting"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Consulting"
@@ -66,10 +73,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Marketing.jpg"
+          <Image
+            src="/Marketing.jpg"
             alt="Marketing"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Marketing"
@@ -78,10 +87,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Education.jpg"
+          <Image
+            src="/Education.jpg"
             alt="Education"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Education"
@@ -90,10 +101,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Engineering.jpg"
+          <Image
+            src="/Engineering.jpg"
             alt="Engineering"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Engineering"
@@ -102,10 +115,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Governemnt_Public.jpg"
+          <Image
+            src="/Governemnt_Public.jpg"
             alt="Government"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Government & Public Sector"
@@ -114,10 +129,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Healthcare.jpg"
+          <Image
+            src="/Healthcare.jpg"
             alt="Banking & Finance"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Healthcare"
@@ -126,10 +143,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Real Estate.jpg"
+          <Image
+            src="/Real Estate.jpg"
             alt="Real Estate"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Real Estate"
@@ -138,10 +157,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Law.jpg"
+          <Image
+            src="/Law.jpg"
             alt="Law"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Law"
@@ -150,10 +171,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Technology.jpg"
+          <Image
+            src="/Technology.jpg"
             alt="Technology"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Banking & Finance"
@@ -162,10 +185,12 @@ const CreateProfileThree = () => {
           />
         </div>
         <div className="w-1/4 mb-10">
-          <img
-            src="Media-_-Music_1.jpg"
+          <Image
+            src="/Media-_-Music_1.jpg"
             alt="Media_Music"
-            className="rounded-img mb-5 w-[70px] h-[70px]"
+            className="rounded-img mb-5"
+            height={70}
+            width={70}
           />
           <Checkbox
             label="Banking & Finance"
