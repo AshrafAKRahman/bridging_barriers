@@ -1,6 +1,6 @@
 import NormalButton from "@/components/buttons/NormalButton";
 import Header from "@/components/header/Header";
-import Form from "@/components/form/form";
+import Form from "../components/form/Form";
 import { useState } from "react";
 import Link from "next/link";
 
