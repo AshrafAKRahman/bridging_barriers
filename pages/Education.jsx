@@ -75,7 +75,7 @@ const Education = () => {
           </div>
           <div className="mt-10">
             <label className="text-white" htmlFor="inline-name">
-              UCAS points (based on three best A'Levels)
+              UCAS points (based on three best A Levels)
             </label>
             <input
               className="bg-gray-200 rounded py-4 px-4 text-gray-700 border border-black w-full"
