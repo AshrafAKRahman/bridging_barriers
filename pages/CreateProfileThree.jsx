@@ -1,4 +1,4 @@
-import Checkbox from "@/components/checkbox/Checkbox";
+import Checkbox from "../components/checkbox/Checkbox";
 import { useState } from "react";
 import Form from "@/components/form/Form";
 import Header from "@/components/header/Header";
