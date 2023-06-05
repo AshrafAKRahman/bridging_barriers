@@ -27,3 +27,6 @@ body {
 .rounded-img {
   border-radius: 25%;
 }
+.imageContainer {
+  transform: translateY(-90px);
+}

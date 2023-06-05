@@ -1,6 +1,7 @@
 import LargeButton from "@/components/buttons/LargeButton";
 import Header from "../components/header/Header";
 import SubHeader from "@/components/subheader/subheader";
+import Image from "next/image";
 
 const Landing = () => {
   return (
@@ -31,16 +32,17 @@ const Landing = () => {
           />
         </div>
         <div className="w-full md:w-1/2 hidden md:block">
-          <img
-            className="rounded-25 shadow-2xl"
-            style={{
-              transform: "translateY(-90px)",
-              objectFit: "cover",
-              height: "300px",
-            }}
-            src="../Mentor.jpg"
-            alt="Mentor Image"
-          />
+          <div className="imageContainer">
+            <Image
+              className="rounded-25 shadow-2xl"
+              src="/Mentor.jpg"
+              alt="Mentor Image"
+              objectFit="cover"
+              layout="fixed"
+              height={300}
+              width={500} // adjust width as needed
+            />
+          </div>
         </div>
       </div>
     </div>
